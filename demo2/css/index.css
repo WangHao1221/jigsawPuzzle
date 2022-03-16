@@ -1,0 +1,62 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.game{
+    padding: 10px 15%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.game_header{
+    padding: 10px;
+    width: 400px;
+    float: left;
+}
+.game_header #inputFile{
+    display: block;
+    padding-bottom: 10px;
+}
+.game_header #showImg{
+    display: none;
+    width: 400px;
+    height: 400px;
+}
+.num_box{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.num_box .num{
+    width: 35%;
+}
+.num_box .split{
+    padding: 0 10px;
+}
+.game_wrrapper{
+    float: left;
+    padding: 30px;
+}
+.time_box{
+    display: none;
+    padding: 20px;
+}
+.time_box .time{
+    color: aqua;
+    padding: 5px;
+}
+.game_box{
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+.game_box .imgCell {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: absolute;
+    transition: left .4s ease-in-out, top .4s ease-in-out;
+}
